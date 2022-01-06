@@ -1,0 +1,41 @@
+/***********************Icon and FigCaption******************/
+
+.icon-location {
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+  }
+
+
+  figure {  
+	margin: 0;
+	line-height: 0;
+    position: relative;
+}
+
+figcaption {
+ font-style: 0.9em;
+ line-height: 1.5;
+ color: #fff;
+ padding: 1em;
+ background-color: rgba(19,143,102,.85);
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+
+/********************Fixed Header and z-index***********************/
+
+body{
+    padding-top: 68px;
+}
+.main-header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0 , 0, 0, alph.4a);
+    top: 0;
+    z-index: 1;
+}
